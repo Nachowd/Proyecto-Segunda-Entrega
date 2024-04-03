@@ -16,3 +16,38 @@
     color: #DCF763 !important;
 }
 /* Navbar termina */
+/* Estructura del footer inicia */
+
+.copy {
+    float: inline-start;
+    font-size: 15px;
+}
+.redes {
+    float: right;
+}
+.redes a{
+    color:black;
+}
+.redes a:hover {
+    color:#DCF763;
+}
+
+footer {
+    height: 50px;
+    width: auto;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Inika", serif;
+    background-color: #DCF763;
+}
+
+footer a {
+    color: #435058;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
+
+/* Estructura del footer termina */
