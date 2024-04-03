@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Navbar inicia */
 .navbar {
     background-color: #435058;
@@ -15,6 +16,7 @@
 .nav-link {
     color: #DCF763 !important;
 }
+
 /* Navbar termina */
 /* Estructura del footer inicia */
 
@@ -22,14 +24,17 @@
     float: inline-start;
     font-size: 15px;
 }
+
 .redes {
     float: right;
 }
-.redes a{
-    color:black;
+
+.redes a {
+    color: black;
 }
+
 .redes a:hover {
-    color:#DCF763;
+    color: #DCF763;
 }
 
 footer {
@@ -71,25 +76,33 @@ main {
     padding: 2px;
     font-size: 35px;
     text-transform: uppercase;
-    }
+}
 
 .barra {
     float: right;
     text-transform: uppercase;
 }
+
 .barra ul li {
     list-style: none;
     display: inline-block;
 }
+
 .barra a {
     text-decoration: none;
     color: #DCF763;
 }
+
 .barra a:hover {
-    color:black;
+    color: black;
 }
-h1, h2, h3, h4, h5 {
-    color:#DCF763 !important;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #DCF763 !important;
     font-size: 30px;
 }
 
@@ -103,7 +116,7 @@ h6 {
     height: 250px;
 }
 
-#galeria-viejos .col-lg-4{
+#galeria-viejos .col-lg-4 {
     margin: 0 !important;
     padding: 25px;
 }
@@ -113,7 +126,7 @@ h6 {
     height: 250px;
 }
 
-#galeria-restaurados .col-lg-4{
+#galeria-restaurados .col-lg-4 {
     margin: 0 !important;
     padding: 25px;
 }
@@ -125,14 +138,76 @@ h6 {
 #galeria-restaurados img:hover {
     border: 2px solid white;
 }
+
 p {
     color: #DCF763 !important;
     font-size: 20px;
 }
 
-.ul, li, dl, dd, dt {
+.ul,
+li,
+dl,
+dd,
+dt {
     color: #DCF763 !important;
-} 
+}
+
 /* css de la galeria termina*/
 
 /* Estructura del index termina */
+/* Formato del formulario contacto inicia */
+
+#contacto {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contacto,
+.ventas,
+.nosotros {
+    color: #DCF763;
+    text-align: center;
+}
+
+.form-container {
+    width: 600px;
+    background-color: #435058;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    color: #DCF763;
+    border: 1px solid black;
+}
+
+.form-container h4 {
+    font-size: 30px;
+    padding: 30px;
+
+}
+
+.btn {
+    border: 1px solid black;
+    background-color: #DCF763;
+    color: #435058;
+}
+
+.btn:hover {
+    color: black;
+}
+
+@media (max-width:600px) {
+    .form-container {
+        width: 350px;
+        background-color: #435058;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 10px;
+        color: #DCF763;
+        border: 1px solid black;
+    }
+}
+
+/* Formato del contacto termina  */
