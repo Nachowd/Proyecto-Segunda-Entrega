@@ -51,3 +51,88 @@ footer a:hover {
 }
 
 /* Estructura del footer termina */
+/* Estructura del main inicia */
+main {
+    height: 100%;
+    width: auto;
+    font-style: italic;
+    margin: 0;
+    padding: 10px;
+    font-family: "Inika", serif;
+    background-image: url(./multimedia/taller/black-1072366_1280.jpg);
+    background-size: cover;
+}
+
+/* Estructura del main termina */
+.logo {
+    color: #DCF763;
+    font-family: "Inika", serif;
+    float: left;
+    padding: 2px;
+    font-size: 35px;
+    text-transform: uppercase;
+    }
+
+.barra {
+    float: right;
+    text-transform: uppercase;
+}
+.barra ul li {
+    list-style: none;
+    display: inline-block;
+}
+.barra a {
+    text-decoration: none;
+    color: #DCF763;
+}
+.barra a:hover {
+    color:black;
+}
+h1, h2, h3, h4, h5 {
+    color:#DCF763 !important;
+    font-size: 30px;
+}
+
+h6 {
+    color: black !important;
+}
+
+/* css de la galeria inicia */
+#galeria-viejos img {
+    width: 100%;
+    height: 250px;
+}
+
+#galeria-viejos .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria-restaurados img {
+    width: 100%;
+    height: 250px;
+}
+
+#galeria-restaurados .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria-viejos img:hover {
+    border: 2px solid white;
+}
+
+#galeria-restaurados img:hover {
+    border: 2px solid white;
+}
+p {
+    color: #DCF763 !important;
+    font-size: 20px;
+}
+
+.ul, li, dl, dd, dt {
+    color: #DCF763 !important;
+} 
+/* css de la galeria termina*/
+
+/* Estructura del index termina */
