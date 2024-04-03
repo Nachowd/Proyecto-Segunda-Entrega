@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar inicia */
+.navbar {
+    background-color: #435058;
+}
+
+.navbar-brand {
+    color: #DCF763 !important;
+}
+
+.nav-link {
+    color: #DCF763 !important;
+}
+/* Navbar termina */
