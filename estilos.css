@@ -1,100 +1,87 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Navbar inicia */
 .navbar {
-    background-color: #435058;
+  background-color: #435058;
 }
 
 .navbar-brand {
-    color: #DCF763 !important;
+  color: #DCF763 !important;
 }
 
 .nav-link {
-    color: #DCF763 !important;
+  color: #DCF763 !important;
 }
 
-/* Navbar termina */
-/* Estructura del footer inicia */
-
 .copy {
-    float: inline-start;
-    font-size: 15px;
+  float: inline-start;
+  font-size: 15px;
 }
 
 .redes {
-    float: right;
+  float: right;
 }
-
 .redes a {
-    color: black;
+  color: black;
 }
-
-.redes a:hover {
-    color: #DCF763;
+.redes a :hover {
+  color: #DCF763;
 }
 
 footer {
-    height: 50px;
-    width: auto;
-    font-size: 20px;
-    padding: 10px;
-    font-family: "Inika", serif;
-    background-color: #DCF763;
+  height: 50px;
+  width: auto;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Inika", serif;
+  background-color: #DCF763;
 }
-
 footer a {
-    color: #435058;
-    text-decoration: none;
+  color: #435058;
+  text-decoration: none;
+}
+footer a :hover {
+  color: black;
 }
 
-footer a:hover {
-    color: black;
-}
-
-/* Estructura del footer termina */
-/* Estructura del main inicia */
 main {
-    height: 100%;
-    width: auto;
-    font-style: italic;
-    margin: 0;
-    padding: 10px;
-    font-family: "Inika", serif;
-    background-image: url(./multimedia/taller/black-1072366_1280.jpg);
-    background-size: cover;
+  height: 100%;
+  width: auto;
+  font-style: italic;
+  margin: 0;
+  padding: 10px;
+  font-family: "Inika", serif;
+  background-image: url(./multimedia/taller/black-1072366_1280.jpg);
+  background-size: cover;
 }
 
-/* Estructura del main termina */
 .logo {
-    color: #DCF763;
-    font-family: "Inika", serif;
-    float: left;
-    padding: 2px;
-    font-size: 35px;
-    text-transform: uppercase;
+  color: #DCF763 !important;
+  font-family: "Inika", serif;
+  float: left;
+  padding: 2px;
+  font-size: 35px;
+  text-transform: uppercase;
 }
 
 .barra {
-    float: right;
-    text-transform: uppercase;
+  float: right;
+  text-transform: uppercase;
 }
-
 .barra ul li {
-    list-style: none;
-    display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 
 .barra a {
-    text-decoration: none;
-    color: #DCF763;
+  text-decoration: none;
+  color: #DCF763;
 }
-
-.barra a:hover {
-    color: black;
+.barra a :hover {
+  color: black;
 }
 
 h1,
@@ -102,46 +89,45 @@ h2,
 h3,
 h4,
 h5 {
-    color: #DCF763 !important;
-    font-size: 30px;
+  color: #DCF763 !important;
+  font-size: 30px;
 }
 
 h6 {
-    color: black !important;
+  color: black !important;
 }
 
-/* css de la galeria inicia */
 #galeria-viejos img {
-    width: 100%;
-    height: 250px;
+  width: 100%;
+  height: 250px;
 }
 
 #galeria-viejos .col-lg-4 {
-    margin: 0 !important;
-    padding: 25px;
+  margin: 0 !important;
+  padding: 25px;
 }
 
 #galeria-restaurados img {
-    width: 100%;
-    height: 250px;
+  width: 100%;
+  height: 250px;
 }
 
 #galeria-restaurados .col-lg-4 {
-    margin: 0 !important;
-    padding: 25px;
+  margin: 0 !important;
+  padding: 25px;
 }
 
 #galeria-viejos img:hover {
-    border: 2px solid white;
+  border: 2px solid w white;
 }
 
 #galeria-restaurados img:hover {
-    border: 2px solid white;
+  border: 2px solid w white;
 }
 
 p {
-    color: #DCF763 !important;
-    font-size: 20px;
+  color: #DCF763 !important;
+  font-size: 20px;
 }
 
 .ul,
@@ -149,29 +135,49 @@ li,
 dl,
 dd,
 dt {
-    color: #DCF763 !important;
+  color: #DCF763 !important;
 }
 
-/* css de la galeria termina*/
-
-/* Estructura del index termina */
-/* Formato del formulario contacto inicia */
-
 #contacto {
-    color: white;
-    padding: 20px;
-    text-align: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 .contacto,
 .ventas,
 .nosotros {
-    color: #DCF763;
-    text-align: center;
+  color: #DCF763;
+  text-align: center;
 }
 
 .form-container {
-    width: 600px;
+  width: 600px;
+  background-color: #435058;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  color: #DCF763;
+  border: 1px solid black;
+}
+.form-container h4 {
+  font-size: 30px;
+  padding: 30px;
+}
+
+.btn {
+  border: 1px solid black;
+  background-color: #DCF763;
+  color: #435058;
+}
+.btn :hover {
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    width: 350px;
     background-color: #435058;
     padding: 30px;
     margin: auto;
@@ -179,35 +185,7 @@ dt {
     border-radius: 10px;
     color: #DCF763;
     border: 1px solid black;
+  }
 }
 
-.form-container h4 {
-    font-size: 30px;
-    padding: 30px;
-
-}
-
-.btn {
-    border: 1px solid black;
-    background-color: #DCF763;
-    color: #435058;
-}
-
-.btn:hover {
-    color: black;
-}
-
-@media (max-width:600px) {
-    .form-container {
-        width: 350px;
-        background-color: #435058;
-        padding: 30px;
-        margin: auto;
-        margin-top: 100px;
-        border-radius: 10px;
-        color: #DCF763;
-        border: 1px solid black;
-    }
-}
-
-/* Formato del contacto termina  */
+/*# sourceMappingURL=estilos.css.map */
